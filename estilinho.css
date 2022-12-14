@@ -10,6 +10,7 @@
     background-color: var(--cor-fundo);
     margin: auto;
     width: 40%;
+    height: 400px;
 }
 
 
@@ -84,7 +85,8 @@ p {
     fill: white;
 }
 
-.check1, .check2 {
+.check1,
+.check2 {
     position: absolute;
     bottom: 5px;
     right: 7px;
@@ -98,4 +100,26 @@ p {
 
 .check2 {
     fill: rgb(160, 160, 160);
+}
+
+.drop, .drop2 {
+    position: absolute;
+    border-radius: 150px;
+    border: 1px solid black;
+    top: 5px;
+    right: 7px;
+}
+
+.drop {
+    background-color: #657583;
+}
+
+.drop2 {
+    background-color: var(--cor-recebido);
+}
+
+.iconedrop {
+    height: 20px;
+    width: 5px;
+    fill: white;
 }
