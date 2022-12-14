@@ -1,0 +1,101 @@
+:root {
+    --cor-fundo: #292929;
+    --cor-recebido: #2e5f4f;
+    --cor-texto: white;
+}
+
+#div2 {
+    position: relative;
+    border-radius: 7px;
+    background-color: var(--cor-fundo);
+    margin: auto;
+    width: 40%;
+}
+
+
+h1 {
+    margin: 0px 13px 0px 13px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: 38px;
+    color: var(--cor-texto);
+    border-bottom: 1px dotted rgb(126, 126, 126);
+
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+p {
+    color: var(--cor-texto);
+}
+
+.diva,
+.divm,
+.divm1 {
+    position: relative;
+    border-radius: 12px;
+    margin-bottom: 3px;
+    width: fit-content;
+    padding: 1px 40px 1px 5px;
+}
+
+
+.diva {
+    background-color: #657583;
+    margin-left: 10px;
+
+}
+
+.divm1 {
+    background-color: var(--cor-recebido);
+    margin-left: 402px;
+}
+
+.divm {
+    background-color: var(--cor-recebido);
+    margin-left: 292px;
+
+}
+
+#opcao {
+    position: absolute;
+    top: 5%;
+    right: 6%;
+    border: none;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    background-color: var(--cor-fundo);
+
+}
+
+#opcao:hover {
+    background-color: #444444;
+
+}
+
+#iconeopcao {
+    height: 20px;
+    width: 5px;
+    fill: white;
+}
+
+.check1, .check2 {
+    position: absolute;
+    bottom: 5px;
+    right: 7px;
+    padding: 0px;
+    width: 13px;
+}
+
+.check1 {
+    fill: rgb(81, 200, 255);
+}
+
+.check2 {
+    fill: rgb(160, 160, 160);
+}
