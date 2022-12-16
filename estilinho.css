@@ -1,7 +1,9 @@
 :root {
     --cor-fundo: #292929;
-    --cor-recebido: #2e5f4f;
+    --cor-recebido: #657583;
+    --cor-enviado: #2e5f4f;
     --cor-texto: white;
+    
 }
 
 #div2 {
@@ -20,7 +22,7 @@ h1 {
     padding-bottom: 15px;
     height: 38px;
     color: var(--cor-texto);
-    border-bottom: 1px dotted rgb(126, 126, 126);
+    border-bottom: 1px dotted var(--cor-recebido);
 
 }
 
@@ -40,24 +42,24 @@ p {
     border-radius: 12px;
     margin-bottom: 3px;
     width: fit-content;
-    padding: 1px 40px 1px 5px;
+    padding: 1px 35px 1px 5px;
 }
 
 
 .diva {
-    background-color: #657583;
+    background-color: var(--cor-recebido);
     margin-left: 10px;
 
 }
 
 .divm1 {
-    background-color: var(--cor-recebido);
+    background-color: var(--cor-enviado);
     margin-left: 402px;
 }
 
 .divm {
-    background-color: var(--cor-recebido);
-    margin-left: 292px;
+    background-color: var(--cor-enviado);
+    margin-left: 322px;
 
 }
 
@@ -76,7 +78,7 @@ p {
 
 #opcao:hover {
     background-color: #444444;
-
+    cursor: pointer;
 }
 
 #iconeopcao {
@@ -89,7 +91,7 @@ p {
 .check2 {
     position: absolute;
     bottom: 5px;
-    right: 7px;
+    right: 9px;
     padding: 0px;
     width: 13px;
 }
@@ -107,19 +109,31 @@ p {
     border-radius: 150px;
     border: 1px solid black;
     top: 5px;
-    right: 7px;
+    right: 3px;
+    border: none;
+    opacity: 0%;
 }
 
 .drop {
-    background-color: #657583;
-}
-
-.drop2 {
     background-color: var(--cor-recebido);
 }
 
+.drop2 {
+    background-color: var(--cor-enviado);
+}
+
+.drop:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.drop2:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
 .iconedrop {
-    height: 20px;
-    width: 5px;
+    height: 10px;
+    width: 15px;
     fill: white;
 }
